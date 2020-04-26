@@ -7,7 +7,7 @@
 
 @media (min-width:840px)
 {
-  img
+  .menu_rest img
   {
     max-width: 400px;
     height: auto;
@@ -16,7 +16,7 @@
 
 @media (max-width: 839.98px) and (min-width:420px)
 {
-  img
+  .menu_rest img
   {
     max-width: 400px;
     height: auto;
@@ -25,9 +25,9 @@
 
 @media (max-width:419.98px)
 {
-  img
+  .menu_rest img
   {
-    width: 94%;
+    width: 90%;
     height: auto;
   }
 }
@@ -45,10 +45,11 @@ footer
     background-color: rgb(16, 145, 16);
 }
 
-body
+#whole_page_accueil
 {
     max-width:990px;
     margin: auto;
+    
 }
 
 header, h2
@@ -74,7 +75,7 @@ h3
   padding: 5px 30px 5px 30px;
 }
 
-img
+.menu_rest img
 {
   margin: 10px;
   border: solid 2px grey;
