@@ -1,0 +1,26 @@
+.menu_detail
+{
+    text-align: center;
+   
+    & li
+    {
+        list-style: none;
+        padding-bottom: 10px;
+    }
+    & h3
+    {
+        font-size: x-large;
+    }
+
+/*    &__la_note
+{
+    background-color: grey;
+    &--name {
+        font-family: 'Devonshire-Regular';
+        font-size: xx-large;
+    }
+    & h3,li {
+    font-family: 'TYPO-COMICS-DEMO';   
+    }
+}*/
+}

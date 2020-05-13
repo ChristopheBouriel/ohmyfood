@@ -1,0 +1,31 @@
+/*@font-face {
+    font-family: 'HomepageBaukasten-Bold1';
+    src:url('../../fonts/HomepageBaukasten-Bold1.ttf.woff') format('woff'),
+        url('../../fonts/HomepageBaukasten-Bold1.ttf.svg#HomepageBaukasten-Bold1') format('svg'),
+        url('../../fonts/HomepageBaukasten-Bold1.ttf.eot'),
+        url('../../fonts/HomepageBaukasten-Bold1.ttf.eot?#iefix') format('embedded-opentype'); 
+    
+    font-style: normal;
+  }*/
+
+header
+{
+  font-size: xx-large;
+  font-weight: 400;
+  font-family: 'HomepageBaukasten-Bold1';
+}
+
+h1
+{
+  padding: 30px;
+  margin-top: 0px;
+  letter-spacing: -0.05em;
+  background-color: $page-color;
+  color: $page-text-color;
+  text-align: center;
+}
+
+h1 span
+{
+    letter-spacing: -0.1em;
+}

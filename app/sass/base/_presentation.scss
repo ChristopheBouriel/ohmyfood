@@ -1,0 +1,32 @@
+a
+{
+    text-decoration: none;
+    color: $page-text-color;
+}
+
+body
+{
+  max-width:990px;
+  margin: auto;
+  border: solid 2px $page-color;
+  box-shadow: $page-color 0px 3px 10px inset;
+}
+
+main
+{
+    margin-bottom: 140px;
+}
+
+
+#menus_covers 
+{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.menu_rest a
+{
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,21 @@
+/*@font-face {
+    font-family: 'Devonshire-Regular';
+    src:url('../fonts/Devonshire-Regular.ttf.woff') format('woff'),
+        url('../fonts/Devonshire-Regular.ttf.svg#Devonshire-Regular') format('svg'),
+        url('../fonts/Devonshire-Regular.ttf.eot'),
+        url('../fonts/Devonshire-Regular.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+  }*/
+
+
+.menu_detail__la_note
+{
+    &--name {
+        font-family: 'Devonshire-Regular';
+        font-size: xx-large;
+    }
+    & h3,li {
+    font-family: 'TYPO-COMICS-DEMO';   
+    }
+}
