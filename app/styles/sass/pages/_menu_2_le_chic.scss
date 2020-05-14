@@ -1,0 +1,41 @@
+.menu_detail__le_chic
+{
+    &--name {
+        font-family: 'Croissant-One';
+        font-size: x-large;
+    }
+
+    & h3 {
+        font-family: 'Vidaloka';
+    }
+
+    & li {
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        /*font-size: 1em;*/
+    }
+
+    & img {
+        width: 20%;
+        padding: 30px;
+    }
+
+    &__items {
+        &--all-1
+    {
+        color: #c57618; 
+    }
+
+        &--all-2
+    {
+        color: #a7699e; 
+    }
+
+        &--all-3
+    {
+        color: #704fcd; 
+    }
+    }
+    
+    
+   
+}

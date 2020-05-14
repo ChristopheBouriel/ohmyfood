@@ -49,11 +49,41 @@
 }
 
 @font-face {
-    font-family: 'Serif6Beta-Bold';
-    src:url('../fonts/Serif6Beta-Bold.ttf.woff') format('woff'),
-        url('../fonts/Serif6Beta-Bold.ttf.svg#Serif6Beta-Bold') format('svg'),
-        url('../fonts/Serif6Beta-Bold.ttf.eot'),
-        url('../fonts/Serif6Beta-Bold.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-family: 'Vidaloka';
+    src:url('../fonts/Vidaloka.ttf.woff') format('woff'),
+        url('../fonts/Vidaloka.ttf.svg#Vidaloka') format('svg'),
+        url('../fonts/Vidaloka.ttf.eot'),
+        url('../fonts/Vidaloka.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Parisienne';
+    src:url('../fonts/Parisienne.ttf.woff') format('woff'),
+        url('../fonts/Parisienne.ttf.svg#Parisienne') format('svg'),
+        url('../fonts/Parisienne.ttf.eot'),
+        url('../fonts/Parisienne.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TYPO-COMICS-Light-DEMO';
+    src:url('../fonts/TYPO-COMICS-Light-DEMO.ttf.woff') format('woff'),
+        url('../fonts/TYPO-COMICS-Light-DEMO.ttf.svg#TYPO-COMICS-Light-DEMO') format('svg'),
+        url('../fonts/TYPO-COMICS-Light-DEMO.ttf.eot'),
+        url('../fonts/TYPO-COMICS-Light-DEMO.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Kaushan-Script';
+    src:url('../fonts/Kaushan-Script.ttf.woff') format('woff'),
+        url('../fonts/Kaushan-Script.ttf.svg#Kaushan-Script') format('svg'),
+        url('../fonts/Kaushan-Script.ttf.eot'),
+        url('../fonts/Kaushan-Script.ttf.eot?#iefix') format('embedded-opentype'); 
     font-weight: normal;
     font-style: normal;
 }

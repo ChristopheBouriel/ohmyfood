@@ -15,7 +15,13 @@
         font-family: 'Devonshire-Regular';
         font-size: xx-large;
     }
+    
     & h3,li {
     font-family: 'TYPO-COMICS-DEMO';   
+    }
+
+    & img{
+        width: 30%;
+        padding: 30px;
     }
 }

@@ -1,14 +1,12 @@
 @import '../fonts/fonts_file';
 
-@import '../sass/utils/variables';
-@import '../sass/base/presentation';
-@import '../sass/components/soon';
-@import '../sass/layout/footer';
-@import '../sass/layout/header';
-@import '../sass/layout/menu_detail';
-@import '../sass/pages/legal_notices';
-@import '../sass/pages/menu_1_la_note';
-@import '../sass/pages/menu_2_le_chic';
+@import 'sass/utils/variables';
+@import 'sass/base/presentation';
+@import 'sass/components/soon';
+@import 'sass/layout/footer';
+@import 'sass/layout/header';
+@import 'sass/layout/menu_detail';
+@import 'sass/pages/pages';
 
 @media (min-width:920px)
 {
