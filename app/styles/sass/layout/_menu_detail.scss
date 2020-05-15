@@ -10,9 +10,9 @@
         list-style: none;  
     }
 
-    p
+    span
     {
-        padding-right: 30px;
+        padding-left: 30px;
     }
 
     h3
@@ -30,13 +30,13 @@
         &--cat {
         display: flex;
         flex-direction: row;
-        justify-content: center;
+        justify-content: space-between;
         }
-        &--options-1 li {
+        &--options li {
             display: flex;
             flex-direction: row;
             justify-content: space-between;
-            padding-right: 40px;
+            padding: 2% 15% 2% 10%;
         }
     }
     

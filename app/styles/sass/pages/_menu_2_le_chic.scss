@@ -5,37 +5,35 @@
         font-size: x-large;
     }
 
-    & h3 {
+    h3 {
         font-family: 'Vidaloka';
     }
 
-    & li {
+    li {
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         /*font-size: 1em;*/
     }
 
-    & img {
-        width: 20%;
+    img {
+        width: 30%;
         padding: 30px;
     }
 
     &__items {
         &--all-1
     {
-        color: #c57618; 
+        color:$menu3-1-color; 
     }
 
         &--all-2
     {
-        color: #a7699e; 
+        color:$menu3-2-color; 
     }
 
         &--all-3
     {
-        color: #704fcd; 
+        color:$menu3-3-color; 
     }
     }
     
-    
-   
 }
