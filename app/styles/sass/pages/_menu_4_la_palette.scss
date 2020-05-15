@@ -1,8 +1,18 @@
 .menu_detail__la_palette
 {
+    background-color: $bg-menu4;
+    padding: 100px 0px 100px 0px;
+
     &--name {
         font-family: 'Kaushan-Script';
         font-size: xx-large;
+
+        h2 {  
+            background: linear-gradient(90deg,$menu4-dark-color,$menu4-clear-color);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color:transparent;
+            font-size: 2em;
+            }
     }
 
     h3,li {
@@ -10,7 +20,7 @@
     }
 
     img{
-            width: 30%;
+            max-width: 30%;
             padding: 30px;
         }
 }

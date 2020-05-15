@@ -1,18 +1,27 @@
 
 .menu_detail__le_delice
 {
+    background-color: $bg-menu3;
+    padding: 100px 0px 100px 0px;
+
     &--name {
         font-family: 'Parisienne';
         font-size: xx-large;
+        
+      h2 {  
+        background: linear-gradient(90deg,#032bdd,#229df9);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color:transparent;
+        font-size: 2em;
+         }
     }
 
     h3,li {
     font-family: 'TYPO-COMICS-Light-DEMO';   
     }
 
-    
     img{
-            width: 30%;
-            padding: 30px;
+            max-width: 30%;
+            padding: 10px;
         }
 }

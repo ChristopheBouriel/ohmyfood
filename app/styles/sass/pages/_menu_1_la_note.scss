@@ -11,22 +11,49 @@
 
 .menu_detail__la_note
 {
+    background-color: $bg-menu1;
+    padding: 100px 0px 100px 0px;
+
+    &__picture--top {
+        display: flex;
+        justify-content: center;
+    }
+
     &--name {
         font-family: 'Devonshire-Regular';
         font-size: xx-large;
+    }
+
+    h2
+    {
+        font-size: 2em;
+        color: #000000;
     }
 
     h3,li {
     font-family: 'TYPO-COMICS-DEMO';   
     }
 
-    img{
-        width: 30%;
+    .delimiter {
+        max-width: 30%;
         padding: 2%;
        /*attention au-dessus, en %*/
     }
     
     
     
-    
+    &__bottom {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        p {
+            font-size: 1.4em;
+            padding-left: 20px;         
+        }
+
+        img {
+            width: 50px;
+            height: auto;  
+        }
+    }
 }

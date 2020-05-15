@@ -1,8 +1,17 @@
 .menu_detail__le_chic
 {
+    background-color: $bg-menu2;
+    padding: 100px 0px 100px 0px;
+
     &--name {
         font-family: 'Croissant-One';
         font-size: x-large;
+
+        h2 {  
+            background: linear-gradient(90deg,$menu2-1-color,$menu2-2-color,$menu2-3-color);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color:transparent;
+             }
     }
 
     h3 {
@@ -15,25 +24,27 @@
     }
 
     img {
-        width: 30%;
-        padding: 30px;
+        max-width: 30%;
+        padding: 10px;
     }
 
-    &__items {
-        &--all-1
+        &--part1
     {
-        color:$menu3-1-color; 
+        color:$menu2-1-color;
+        margin: 0px 40px 0px 40px;
     }
 
-        &--all-2
+        &--part2
     {
-        color:$menu3-2-color; 
+        color:$menu2-2-color;
+        margin: 0px 40px 0px 40px;
     }
 
-        &--all-3
+        &--part3
     {
-        color:$menu3-3-color; 
+        color:$menu2-3-color;
+        margin: 0px 40px 0px 40px;
     }
-    }
+    
     
 }
