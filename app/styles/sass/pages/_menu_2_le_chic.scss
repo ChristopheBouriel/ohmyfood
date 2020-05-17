@@ -8,7 +8,7 @@
         font-size: x-large;
 
         h2 {  
-            background: linear-gradient(90deg,$menu2-1-color,$menu2-2-color,$menu2-3-color);
+            background: linear-gradient(-200deg,$menu2-1-color 20%,$menu2-2-color 60%,$menu2-3-color);
             -webkit-background-clip: text;
             -webkit-text-fill-color:transparent;
              }
@@ -23,7 +23,7 @@
         /*font-size: 1em;*/
     }
 
-    img {
+    .delimiter {
         max-width: 30%;
         padding: 10px;
     }
