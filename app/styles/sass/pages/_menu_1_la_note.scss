@@ -1,59 +1,76 @@
-/*@font-face {
-    font-family: 'Devonshire-Regular';
-    src:url('../fonts/Devonshire-Regular.ttf.woff') format('woff'),
-        url('../fonts/Devonshire-Regular.ttf.svg#Devonshire-Regular') format('svg'),
-        url('../fonts/Devonshire-Regular.ttf.eot'),
-        url('../fonts/Devonshire-Regular.ttf.eot?#iefix') format('embedded-opentype'); 
-    font-weight: normal;
-    font-style: normal;
-  }*/
-
-
-.menu_detail__la_note
+.menu_detail
 {
-    background-color: $bg-menu1;
-    padding: 100px 0px 100px 0px;
+    &__la_note {
+        background-color: $bg-menu1;
+        padding: 100px 0px 100px 0px;
 
-    &__picture--top {
-        display: flex;
-        justify-content: center;
-    }
-
-    &--name {
-        font-family: 'Devonshire-Regular';
-        font-size: xx-large;
-    }
-
-    h2
-    {
-        font-size: 2em;
-        color: #000000;
-    }
-
-    h3,li {
-    font-family: 'TYPO-COMICS-DEMO';   
-    }
-
-    .delimiter {
-        max-width: 30%;
-        padding: 2%;
-       /*attention au-dessus, en %*/
-    }
-    
-    
-    
-    &__bottom {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        p {
-            font-size: 1.4em;
-            padding-left: 20px;         
+        .menu_detail__items--options {
+            padding: 2% 10% 2% 10%;
         }
 
-        img {
-            width: 50px;
-            height: auto;  
+        .menu_detail__items--cat {
+            padding: 2% 10% 2% 10%;
         }
+
+        &__picture--top {
+            display: flex;
+            justify-content: center;
+        }
+
+        &--name {
+            font-family: 'Devonshire-Regular';
+            font-size: xx-large;
+        }
+
+        h2
+        {
+            font-size: 2em;
+            color: #000000;
+        }
+
+        h3,li {
+        font-family: 'TYPO-COMICS-DEMO'; 
+        color: black;  
+        }
+
+        .delimiter {
+            max-width: 30%;
+            /*padding: 2%;*/
+        /*attention au-dessus, en %*/
+        }
+        
+        &__bottom {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            p {
+                font-size: 1.4em;
+                padding-left: 20px;         
+            }
+
+            img {
+                width: 50px;
+                height: auto;  
+            }
+        }
+    }
+}
+
+.menu_cover {
+    &__la_note {
+        
+        background-color: $bg-menu1;
+
+        h3 {
+            font-family: 'TYPO-COMICS-DEMO'; 
+            font-size: 3em;
+            color: black;
+            
+            }
+
+        h2 {
+            font-size: 1.4em; 
+            color: black;
+            }
     }
 }

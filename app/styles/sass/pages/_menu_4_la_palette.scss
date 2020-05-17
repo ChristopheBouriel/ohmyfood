@@ -24,3 +24,23 @@
             padding: 30px;
         }
 }
+
+.menu_cover {
+    &__la_palette {
+        
+        background-color: $bg-menu4;
+
+        h3 {
+            font-family: 'TYPO-COMICS-Light-DEMO'; 
+            font-size: 3em;
+            font-weight: 100;
+            color: $menu4-dark-color;
+            
+            }
+
+        h2 {
+            font-size: 1.1em; 
+            color: black;
+            }
+    }
+}

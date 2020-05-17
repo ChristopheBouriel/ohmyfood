@@ -1,27 +1,54 @@
 
-.menu_detail__le_delice
+.menu_detail
 {
-    background-color: $bg-menu3;
-    padding: 100px 0px 100px 0px;
+    &__items--options {
+      padding: 2% 12% 2% 12%;
+    }
 
-    &--name {
-        font-family: 'Parisienne';
-        font-size: xx-large;
+    &__le_delice {
+      background-color: $bg-menu3;
+      padding: 100px 0px 100px 0px;
+
+      &--name {
+          font-family: 'Parisienne';
+          font-size: xx-large;
+          
+        h2 {  
+          background: linear-gradient(90deg,#032bdd,#229df9);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color:transparent;
+          font-size: 2em;
+          }
+      }
+
+      h3,li {
+      font-family: 'TYPO-COMICS-Light-DEMO';   
+      }
+
+      .delimiter{
+              max-width: 25%;
+              padding: 10px;
+          }
+      }
+    
+      
+}
+
+.menu_cover {
+  &__le_delice {
         
-      h2 {  
-        background: linear-gradient(90deg,#032bdd,#229df9);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color:transparent;
-        font-size: 2em;
-         }
-    }
+    background-color: $bg-menu3;
 
-    h3,li {
-    font-family: 'TYPO-COMICS-Light-DEMO';   
-    }
-
-    .delimiter{
-            max-width: 30%;
-            padding: 10px;
+    h3 {
+        font-family: 'TYPO-COMICS-Light-DEMO'; 
+        font-size: 3em;
+        font-weight: 100;
+        color: rgb(80, 190, 253);
         }
+
+    h2 {
+        font-size: 1.1em; 
+        font-weight: 300;
+        }
+}
 }

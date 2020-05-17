@@ -12,3 +12,11 @@ $bg-menu1: #fcdfdb;
 $bg-menu2: #fff5fe;
 $bg-menu3: #edefef;
 $bg-menu4: #fdfffd;
+
+
+@mixin degrade-delice {
+    background: linear-gradient(90deg,#032bdd,#229df9);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color:transparent;
+          
+}

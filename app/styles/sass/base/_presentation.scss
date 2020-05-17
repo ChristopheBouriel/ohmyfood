@@ -10,6 +10,7 @@ body
   margin: auto;
   border: solid 2px $page-color;
   box-shadow: $page-color 0px 3px 10px inset;
+  
 }
 
 main
@@ -17,20 +18,20 @@ main
     margin-bottom: 140px;
 }
 
+
+/*Peut-être à mettre dans un fichier CSS Accueil*/
+
 #menus_covers 
 {
   display:flex;
   flex-wrap: wrap;
   justify-content: center;
+  margin-bottom: 40px;
 }
 
-.menu_rest a
+/*#menus_covers a
 {
   display: flex;
   justify-content: center;
-  transform: scale(1);
-  transition:  transform 400ms;
-  &:hover {
-    transform: scale(1.2);
-  }
-}
+  
+}*/

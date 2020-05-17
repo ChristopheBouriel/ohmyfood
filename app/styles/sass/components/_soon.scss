@@ -1,18 +1,53 @@
 #soon
 {
   max-width: 50%;
+  max-height: 80px;
   margin: auto;
+  padding: 0px 10px 0px 10px;
   font-size: 1.6em;
   font-family: 'Hind-Colombo-Light';
+  display: flex;
+  justify-content: center;
+  align-items: center;
   
 }
 
-#soon h2
+#soon 
 {
   border-radius: 5px;
-  padding:20px;
+  
   background-color: $page-color;
   color: $page-text-color;
   text-align: center;
 }
 
+.coming
+{
+  width: 25px;
+  height: 5px;
+  padding: 15px 0px 0px 10px;
+  display: flex;
+  justify-content: space-between;
+  &__point {
+    background-color: $page-text-color;
+    height: 100%;
+    width: 5px;
+    border-radius: 50%;
+    &:hover {
+      animation: points 2000ms;
+    }
+    
+  }
+  
+}
+
+@keyframes points {
+  0% {
+    /*transform: scaleY(0.2);*/
+    transform: translateY(0px);
+  }
+  100% {
+    /*transform: scaleY(1);*/
+    transform: translateY(-18px);
+  }
+}

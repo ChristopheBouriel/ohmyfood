@@ -1,50 +1,76 @@
-.menu_detail__le_chic
+.menu_detail
 {
-    background-color: $bg-menu2;
-    padding: 100px 0px 100px 0px;
-
-    &--name {
-        font-family: 'Croissant-One';
-        font-size: x-large;
-
-        h2 {  
-            background: linear-gradient(-200deg,$menu2-1-color 20%,$menu2-2-color 60%,$menu2-3-color);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color:transparent;
-             }
-    }
-
-    h3 {
-        font-family: 'Vidaloka';
-    }
-
-    li {
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        /*font-size: 1em;*/
-    }
-
-    .delimiter {
-        max-width: 30%;
-        padding: 10px;
-    }
-
-        &--part1
-    {
-        color:$menu2-1-color;
-        margin: 0px 40px 0px 40px;
-    }
-
-        &--part2
-    {
-        color:$menu2-2-color;
-        margin: 0px 40px 0px 40px;
-    }
-
-        &--part3
-    {
-        color:$menu2-3-color;
-        margin: 0px 40px 0px 40px;
-    }
+    /*&__items--options {
+        padding: 2% 15% 2% 15%;
+    }*/
     
+    &__le_chic {
+        background-color: $bg-menu2;
+        padding: 100px 0px 100px 0px;
+
+        &--name {
+            font-family: 'Croissant-One';
+            font-size: x-large;
+
+            h2 {  
+                background: linear-gradient(-200deg,$menu2-1-color 20%,$menu2-2-color 60%,$menu2-3-color);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color:transparent;
+                }
+        }
+
+        h3 {
+            font-family: 'Vidaloka';
+        }
+
+        li {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            /*font-size: 1em;*/
+        }
+
+        .delimiter {
+            max-width: 30%;
+            padding: 10px;
+        }
+
+            &--part1
+        {
+            color:$menu2-1-color;
+            margin: 0px 40px 0px 40px;
+        }
+
+            &--part2
+        {
+            color:$menu2-2-color;
+            margin: 0px 40px 0px 40px;
+        }
+
+            &--part3
+        {
+            color:$menu2-3-color;
+            margin: 0px 40px 0px 40px;
+        }
+        
+        
+        }
+        
     
+}
+
+.menu_cover {
+    &__le_chic {
+        
+        background-color: $bg-menu2;
+
+        h3 {
+            font-family: 'vidaloka'; 
+            font-size: 3em;
+            color: $menu2-1-color;
+            }
+
+        h2 {
+            font-size: 1em; 
+            font-weight: 300;
+            }
+    }
 }
