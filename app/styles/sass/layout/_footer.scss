@@ -27,4 +27,30 @@ footer h3
 {
   padding: 0px 30px 0px 30px;
   word-spacing: 0.3em;
+  animation: shake 3000ms infinite;
 }
+
+@keyframes shake {
+  2% {
+    transform: translateX(2%);
+  }
+  4% {
+    transform: translateX(-2%);
+  }
+  6% {
+    transform: translateX(4%);
+  }
+  8% {
+    transform: translateX(-4%);
+  }
+  10% {
+    transform: translateX(2%);
+  }
+  12% {
+    transform: translateX(2%);
+  }
+  14% {
+    transform: translateX(0%);
+  }
+}
+

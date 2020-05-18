@@ -8,6 +8,14 @@
         background-color: $bg-menu2;
         padding: 100px 0px 100px 0px;
 
+        .menu_detail__items--options {
+            padding: 2% 15% 2% 15%;
+        }
+
+        .menu_detail__items--cat {
+            padding: 2% 5% 2% 5%;
+        }
+
         &--name {
             font-family: 'Croissant-One';
             font-size: x-large;
@@ -32,42 +40,29 @@
             max-width: 30%;
             padding: 10px;
         }
-
             &--part1
         {
             color:$menu2-1-color;
-            margin: 0px 40px 0px 40px;
         }
-
             &--part2
         {
             color:$menu2-2-color;
-            margin: 0px 40px 0px 40px;
         }
-
             &--part3
         {
             color:$menu2-3-color;
-            margin: 0px 40px 0px 40px;
         }
-        
-        
-        }
-        
-    
+        }  
 }
 
 .menu_cover {
     &__le_chic {
-        
         background-color: $bg-menu2;
-
         h3 {
             font-family: 'vidaloka'; 
             font-size: 3em;
             color: $menu2-1-color;
             }
-
         h2 {
             font-size: 1em; 
             font-weight: 300;

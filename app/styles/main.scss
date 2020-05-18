@@ -10,29 +10,27 @@
 
 @media (min-width:920px)
 {
-  .menu_rest img
+  .menu_cover
   {
-    max-width: 400px;
+    width: 400px;
     height: auto;
+    
   }
 }
 
-@media (max-width: 920px)
+@media (min-width:576.02px) and (max-width: 920px)
 {
-  .menu_rest img
+  .menu_cover
   {
     max-width: 80%;
     height: auto;
+    
   }
 }
 
 @media (max-width:576px)
 {
-  /*.menu_rest img
-  {
-    max-width: 80%;
-    height: auto;
-  }*/
+  
 
   footer h3
   {
@@ -44,15 +42,23 @@
     font-size: 0.8em;
   }
 
+  .coming {
+    width: 15px;
+    padding: 10px 0px 0px 5px;
+    &__point {
+    max-width: 4px;
+    height: 4px;
+  }
+  }
+  
+  
+
   h1
   {
     font-size: 1.2em;
   }
 
-  .menu_detail p
-  {
-    font-size: 1.3em;
-  }
+  
 
   .infos_leg p,h3
   {
