@@ -3,7 +3,7 @@ footer
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(87, 156, 135);
+    background-color: $page-color;
     width:100%;
     max-width: 990px;
     max-height: 80px;
@@ -11,6 +11,7 @@ footer
     bottom: 0px;
     font-size: x-large;
     font-family: 'Hind-Colombo-Light';
+    border-top: solid $page-color;
     a {
       color: $page-text-color;
     }
