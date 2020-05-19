@@ -1,9 +1,5 @@
 .menu_detail
 {
-    /*&__items--options {
-        padding: 2% 15% 2% 15%;
-    }*/
-    
     &__le_chic {
         background-color: $bg-menu2;
         padding: 100px 0px 100px 0px;
@@ -13,17 +9,15 @@
         }
 
         .menu_detail__items--cat {
-            padding: 2% 5% 2% 5%;
+            padding: 2% 2% 2% 2%;
         }
 
         &--name {
             font-family: 'Croissant-One';
             font-size: x-large;
 
-            h2 {  
-                background: linear-gradient(-200deg,$menu2-1-color 20%,$menu2-2-color 60%,$menu2-3-color);
-                -webkit-background-clip: text;
-                -webkit-text-fill-color:transparent;
+            h2 {
+                @include degrade-chic;
                 }
         }
 
@@ -37,18 +31,18 @@
         }
 
         .delimiter {
-            max-width: 30%;
-            padding: 10px;
+            max-width: 25%;
         }
-            &--part1
+
+        &--part1
         {
             color:$menu2-1-color;
         }
-            &--part2
+        &--part2
         {
             color:$menu2-2-color;
         }
-            &--part3
+        &--part3
         {
             color:$menu2-3-color;
         }

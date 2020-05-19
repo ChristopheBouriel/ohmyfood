@@ -27,26 +27,15 @@
     height: 100%;
     width: 5px;
     border-radius: 50%;
-    animation: points 400ms backwards infinite ease-in-out alternate;
+    animation: points 500ms backwards infinite ease-in-out alternate;
         &--1 {
-          animation-delay: 200ms;
+          animation-delay: 250ms;
         }
         &--2 {
-          animation-delay: 400ms;
-        }
-        &--3 {
           animation-delay: 500ms;
         }
-  }
-}
-
-@keyframes points {
-  0% {
-    /*transform: scaleY(0.2);*/
-    transform: translateY(0px);
-  }
-  100% {
-    /*transform: scaleY(1);*/
-    transform: translateY(-6px);
+        &--3 {
+          animation-delay: 625ms;
+        }
   }
 }

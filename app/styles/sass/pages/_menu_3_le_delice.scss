@@ -1,22 +1,24 @@
 
 .menu_detail
 {
-    &__items--options {
-      padding: 2% 12% 2% 12%;
-    }
-
     &__le_delice {
       background-color: $bg-menu3;
       padding: 100px 0px 100px 0px;
+
+      .menu_detail__items--options {
+        padding: 2% 12% 2% 12%;
+      }
+
+      .menu_detail__items--cat {
+        padding: 2% 2% 2% 2%;
+    }
 
       &--name {
           font-family: 'Parisienne';
           font-size: xx-large;
           
-        h2 {  
-          background: linear-gradient(90deg,#032bdd,#229df9);
-          -webkit-background-clip: text;
-          -webkit-text-fill-color:transparent;
+        h2 {
+          @include degrade-delice;
           font-size: 2em;
           }
       }
@@ -27,8 +29,7 @@
       }
 
       .delimiter{
-              max-width: 25%;
-              padding: 10px;
+              max-width: 35%;
           }
       }
     

@@ -16,7 +16,19 @@ $bg-menu4: #fdfffd;
 
 @mixin degrade-delice {
     background: linear-gradient(90deg,#032bdd,#229df9);
-          -webkit-background-clip: text;
-          -webkit-text-fill-color:transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:transparent;
           
+}
+
+@mixin degrade-chic {
+    background: linear-gradient(-200deg,$menu2-1-color 20%,$menu2-2-color 60%,$menu2-3-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:transparent;
+}
+
+@mixin degrade-palette {
+    background: linear-gradient(120deg,$menu4-dark-color,$menu4-clear-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:transparent;
 }

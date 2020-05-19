@@ -1,8 +1,9 @@
 .menu_detail
 {
     &__la_note {
+
         background-color: $bg-menu1;
-        
+
         padding: 100px 0px 100px 0px;
 
         .menu_detail__items--options {
@@ -34,25 +35,30 @@
         color: black;  
         }
 
+        
+
         .delimiter {
             max-width: 30%;
+            max-height: 10px;
             /*padding: 2%;*/
         /*attention au-dessus, en %*/
         }
         
         &__bottom {
             display: flex;
+            flex-wrap: wrap;
             align-items: center;
             justify-content: center;
+            text-align: center;
             p {
                 font-size: 1.4em;
-                padding-left: 20px;
                 color: black;         
             }
 
             img {
                 width: 50px;
-                height: auto;  
+                height: auto;
+                margin: 0px 20px 0px 20px;
             }
         }
     }
@@ -69,13 +75,12 @@
 
         h3 {
             font-family: 'TYPO-COMICS-DEMO'; 
-            font-size: 3em;
-            color: black;
-            
+            font-size: 2.6em;
+            color: black; 
             }
 
         h2 {
-            font-size: 1.4em; 
+            font-size: 1.3em; 
             color: black;
             }
     }

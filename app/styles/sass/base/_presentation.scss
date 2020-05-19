@@ -1,7 +1,7 @@
 a
 {
     text-decoration: none;
-    color: $page-text-color;
+    
 }
 
 body
@@ -17,21 +17,3 @@ main
 {
     margin-bottom: 140px;
 }
-
-
-/*Peut-être à mettre dans un fichier CSS Accueil*/
-
-#menus_covers 
-{
-  display:flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin-bottom: 40px;
-}
-
-/*#menus_covers a
-{
-  display: flex;
-  justify-content: center;
-  
-}*/

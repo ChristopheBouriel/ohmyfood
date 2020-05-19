@@ -1,0 +1,43 @@
+@keyframes points {
+    0% {
+      transform: translateY(0px);
+    }
+    100% {
+      transform: translateY(-6px);
+    }
+  }
+  
+  @keyframes pointsm {
+    0% {
+      transform: translateY(0px);
+    }
+    100% {
+      transform: translateY(-3px);
+    }
+  }
+
+@keyframes shake {
+    2% {
+      transform: translateX(2%);
+    }
+    4% {
+      transform: translateX(-2%);
+    }
+    6% {
+      transform: translateX(4%);
+    }
+    8% {
+      transform: translateX(-4%);
+    }
+    10% {
+      transform: translateX(2%);
+    }
+    12% {
+      transform: translateX(2%);
+    }
+    14% {
+      transform: translateX(0%);
+    }
+  }
+  
+  
