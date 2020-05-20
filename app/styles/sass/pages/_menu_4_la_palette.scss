@@ -2,7 +2,6 @@
 {
     &__la_palette {
         background-color: $bg-menu4;
-        padding: 100px 0px 100px 0px;
 
         .menu_detail__items--options {
             padding: 2% 10% 2% 10%;
@@ -24,12 +23,15 @@
 
         h3,li {
         font-family: 'TYPO-COMICS-Light-DEMO';
-        color: black;   
+        color: black;
+        &::after {
+            background: radial-gradient(ellipse, $menu4-clear-color 70%, rgba(243, 235, 235, 0));
+        }   
         }
-
+/*
         .delimiter{
                 max-width: 30%;
-            }
+            }*/
     }
 }
 

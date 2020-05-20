@@ -14,18 +14,24 @@
     width:80%;
     border-radius: 3px;
     box-shadow: 0px 0px 10px grey;
+    display: block;
+    padding: 100px 0px 100px 0px;
+    
+    .delimiter{
+        max-width: 30%;
+        }
+
     &__delimitereverse
     {
         transform: rotateY(180deg);
     }
     &__items {
-        /*margin: 0% 5% 0% 5%;*/
         &--cat {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
-        max-width: 100%;
+        /*max-width: 100%;*/
         h3 {
             font-size: 1.3em;
             text-align: center;
@@ -35,7 +41,7 @@
                     margin-top: 5px;
                     height: 4px;
                     border-radius: 4px;
-                    background: radial-gradient(ellipse, #3b3b3b 70%, rgba(243, 235, 235, 0) ) ;
+                    background: radial-gradient(ellipse, #3b3b3b 70%, rgba(243, 235, 235, 0));
                     transform-origin: 0% 50%;
                     transform: scaleX(0);
                     transition: all 200ms ;
@@ -47,8 +53,6 @@
         }
         &--options {
             ul {
-                /*list-style: none;
-                padding-left: 0%;*/
                 padding: 0% 3% 0% 3%;
             }
             li {
@@ -89,7 +93,7 @@
             height: 600px;
             &:hover>div{
                 transition: all 700ms;
-                transform: scale(1.3);
+                transform: scale(1.25);
                 opacity: 0.5;
             }
         }

@@ -64,7 +64,14 @@
   }
 
   .menu_detail {
-    width: 90%;
+    
+    .delimiter {
+      max-width: 25%;
+    }
+    a {
+      width: 90%;
+    }
+    
     &__items {
       &--options {
         padding: 0% 0% 0% 0%;
@@ -80,7 +87,7 @@
 
   footer h3
   {
-    font-size: 0.7em;
+    font-size: 0.65em;
   }
 
   #soon h2

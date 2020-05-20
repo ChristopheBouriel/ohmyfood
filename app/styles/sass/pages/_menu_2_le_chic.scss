@@ -2,14 +2,13 @@
 {
     &__le_chic {
         background-color: $bg-menu2;
-        padding: 100px 0px 100px 0px;
-
+        
         .menu_detail__items--options {
-            padding: 2% 15% 2% 15%;
+            padding: 2% 10% 2% 10%;
         }
 
         .menu_detail__items--cat {
-            padding: 2% 2% 2% 2%;
+            padding: 2% 4% 2% 2%;
         }
 
         &--name {
@@ -23,28 +22,39 @@
 
         h3 {
             font-family: 'Vidaloka';
+            
         }
+
+        
 
         li {
             font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-            /*font-size: 1em;*/
         }
 
-        .delimiter {
+        /*.delimiter {
             max-width: 25%;
-        }
+        }*/
 
         &--part1
         {
             color:$menu2-1-color;
+            h3::after {
+                background: radial-gradient(ellipse, $menu2-1-color 70%, rgba(243, 235, 235, 0));
+            }
         }
         &--part2
         {
             color:$menu2-2-color;
+            h3::after {
+                background: radial-gradient(ellipse, $menu2-2-color 70%, rgba(243, 235, 235, 0));
+            }
         }
         &--part3
         {
             color:$menu2-3-color;
+            h3::after {
+                background: radial-gradient(ellipse, $menu2-3-color 70%, rgba(243, 235, 235, 0));
+            }
         }
         }  
 }

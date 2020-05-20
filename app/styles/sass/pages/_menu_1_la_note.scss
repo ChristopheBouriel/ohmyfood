@@ -4,10 +4,10 @@
 
         background-color: $bg-menu1;
 
-        padding: 100px 0px 100px 0px;
+       
 
         .menu_detail__items--options {
-            padding: 2% 10% 2% 10%;
+            padding: 2% 8% 2% 8%;
         }
 
         .menu_detail__items--cat {
@@ -32,17 +32,15 @@
 
         h3,li {
         font-family: 'TYPO-COMICS-DEMO'; 
-        color: black;  
+        color: black;
+        &::after { 
+            background-image: url("../../images/delimiter-menu1-g.svg");}
         }
-
         
 
-        .delimiter {
+        /*.delimiter {
             max-width: 30%;
-            max-height: 10px;
-            /*padding: 2%;*/
-        /*attention au-dessus, en %*/
-        }
+        }*/
         
         &__bottom {
             display: flex;
@@ -50,6 +48,7 @@
             align-items: center;
             justify-content: center;
             text-align: center;
+            padding: 20px;
             p {
                 font-size: 1.4em;
                 color: black;         
