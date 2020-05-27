@@ -24,18 +24,15 @@
         h3,li {
         font-family: 'TYPO-COMICS-Light-DEMO';
         color: black;
-        &::after {
+            &::after {
             background: radial-gradient(ellipse, $menu4-clear-color 70%, rgba(243, 235, 235, 0));
-        }   
+            }   
         }
-/*
-        .delimiter{
-                max-width: 30%;
-            }*/
     }
 }
 
 .menu_cover {
+    
         &__la_palette {
             
             background-color: $bg-menu4;

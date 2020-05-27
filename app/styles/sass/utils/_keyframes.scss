@@ -18,25 +18,25 @@
 
 @keyframes shake {
     2% {
-      transform: translateX(2%);
+      transform: rotate(3deg) translateX(2%);
     }
     4% {
-      transform: translateX(-2%);
+      transform: rotate(-3deg) translateX(-2%);
     }
     6% {
-      transform: translateX(4%);
+      transform: rotate(3deg) translateX(4%);
     }
     8% {
-      transform: translateX(-4%);
+      transform: rotate(-3deg) translateX(-4%);
     }
     10% {
-      transform: translateX(2%);
+      transform: rotate(3deg) translateX(2%);
     }
     12% {
-      transform: translateX(2%);
+      transform: rotate(-3deg) translateX(-2%);
     }
     14% {
-      transform: translateX(0%);
+      transform: rotate(0deg) translateX(0%);
     }
   }
   

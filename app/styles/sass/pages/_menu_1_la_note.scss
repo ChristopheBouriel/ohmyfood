@@ -1,10 +1,8 @@
-.menu_detail
-{
+.menu_detail{
+
     &__la_note {
 
         background-color: $bg-menu1;
-
-       
 
         .menu_detail__items--options {
             padding: 2% 8% 2% 8%;
@@ -36,12 +34,7 @@
         &::after { 
             background-image: url("../../images/delimiter-menu1-g.svg");}
         }
-        
 
-        /*.delimiter {
-            max-width: 30%;
-        }*/
-        
         &__bottom {
             display: flex;
             flex-wrap: wrap;
@@ -49,6 +42,7 @@
             justify-content: center;
             text-align: center;
             padding: 20px;
+
             p {
                 font-size: 1.4em;
                 color: black;         
@@ -64,6 +58,7 @@
 }
 
 .menu_cover {
+
     &__la_note {
         
         background-color: $bg-menu1;
@@ -76,11 +71,11 @@
             font-family: 'TYPO-COMICS-DEMO'; 
             font-size: 2.6em;
             color: black; 
-            }
+        }
 
         h2 {
             font-size: 1.3em; 
             color: black;
-            }
+        }
     }
 }

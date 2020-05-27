@@ -22,20 +22,22 @@
   padding: 15px 0px 0px 10px;
   display: flex;
   justify-content: space-between;
+
   &__point {
     background-color: $page-text-color;
     height: 100%;
     width: 5px;
     border-radius: 50%;
     animation: points 500ms backwards infinite ease-in-out alternate;
-        &--1 {
-          animation-delay: 250ms;
-        }
-        &--2 {
-          animation-delay: 500ms;
-        }
-        &--3 {
-          animation-delay: 625ms;
-        }
+
+    &--1 {
+      animation-delay: 250ms;
+    }
+    &--2 {
+      animation-delay: 500ms;
+    }
+    &--3 {
+      animation-delay: 625ms;
+    }
   }
 }

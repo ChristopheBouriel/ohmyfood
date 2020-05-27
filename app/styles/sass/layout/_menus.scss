@@ -25,13 +25,14 @@
     {
         transform: rotateY(180deg);
     }
+
     &__items {
         &--cat {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
-        /*max-width: 100%;*/
+        
         h3 {
             font-size: 1.3em;
             text-align: center;
@@ -51,6 +52,7 @@
             }
         }
         }
+
         &--options {
             ul {
                 padding: 0% 3% 0% 3%;
@@ -82,6 +84,7 @@
         margin: auto;
         text-align: center;
     }
+    
     a {
             display: flex;
             flex-direction: column;

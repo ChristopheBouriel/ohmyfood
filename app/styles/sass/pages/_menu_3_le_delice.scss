@@ -4,7 +4,6 @@
     &__le_delice {
       background-color: $bg-menu3;
       
-
       .menu_detail__items--options {
         padding: 2% 12% 2% 12%;
       }
@@ -28,28 +27,22 @@
       font-family: 'TYPO-COMICS-Light-DEMO'; 
       color: black; 
       }
-/*
-      .delimiter{
-              max-width: 30%;
-          }*/
       }
     
       .blue1 {
         h3::after {
           background: radial-gradient(ellipse, $menu3-1-color 70%, rgba(243, 235, 235, 0));
+        }
       }
-      }
-
       .blue2 {
         h3::after {
           background: radial-gradient(ellipse, $menu3-2-color 70%, rgba(243, 235, 235, 0));
+        }
       }
-      }
-
       .blue3 {
         h3::after {
           background: radial-gradient(ellipse, $menu3-3-color 70%, rgba(243, 235, 235, 0));
-      }
+        }
       }
 }
 
@@ -63,11 +56,11 @@
         font-size: 3em;
         font-weight: 100;
         color: $menu3-3-color;
-        }
+    }
 
     h2 {
         font-size: 1.1em; 
         font-weight: 300;
-        }
+    }
 }
 }

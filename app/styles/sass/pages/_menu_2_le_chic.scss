@@ -1,6 +1,7 @@
 .menu_detail
 {
     &__le_chic {
+
         background-color: $bg-menu2;
         
         .menu_detail__items--options {
@@ -25,15 +26,9 @@
             
         }
 
-        
-
         li {
             font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         }
-
-        /*.delimiter {
-            max-width: 25%;
-        }*/
 
         &--part1
         {
@@ -60,13 +55,17 @@
 }
 
 .menu_cover {
+
     &__le_chic {
+
         background-color: $bg-menu2;
+
         h3 {
             font-family: 'vidaloka'; 
             font-size: 3em;
             color: $menu2-1-color;
             }
+            
         h2 {
             font-size: 1em; 
             font-weight: 300;
